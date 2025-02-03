@@ -6,7 +6,7 @@ $('document').ready(function() {
   }
   
   document.getElementById('passwort_login').onchange = function() {
-    alert('changed');
+    alert(document.getElementById('passwort_login').value);
   }
 
 })
