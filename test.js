@@ -1,1 +1,3 @@
-alert(document.getElementsByName('Session')[0].value);
+document.getElementById('passwort_login').onchange = function() {
+  alert('changed');
+}
