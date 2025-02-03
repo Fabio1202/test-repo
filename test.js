@@ -1,1 +1,1 @@
-alert(document.getElementsByClassName('Session')[0].value);
+alert(document.getElementsByName('Session')[0].value);
